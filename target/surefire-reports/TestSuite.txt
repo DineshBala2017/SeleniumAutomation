@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 2.684 sec <<< FAILURE!
+Forgotpasswordemail(WhataburgerSampleG.WhataburgerSampleA.ForgotpasswordErrormessageTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Pages.SigninPage.navigate(SigninPage.java:25)
+	at WhataburgerSampleG.WhataburgerSampleA.ForgotpasswordErrormessageTest.Forgotpasswordemail(ForgotpasswordErrormessageTest.java:23)
+
+Forgotpasswordemail1(WhataburgerSampleG.WhataburgerSampleA.ForgotpasswordErrormessageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Pages.SigninPage.navigate(SigninPage.java:25)
+	at WhataburgerSampleG.WhataburgerSampleA.ForgotpasswordErrormessageTest.Forgotpasswordemail1(ForgotpasswordErrormessageTest.java:34)
+
+wrongemail(WhataburgerSampleG.WhataburgerSampleA.InvalidemailTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Pages.SigninPage.navigate(SigninPage.java:25)
+	at WhataburgerSampleG.WhataburgerSampleA.InvalidemailTest.wrongemail(InvalidemailTest.java:20)
+
+signinvalidate(WhataburgerSampleG.WhataburgerSampleA.SigninTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Pages.SigninPage.navigate(SigninPage.java:25)
+	at WhataburgerSampleG.WhataburgerSampleA.SigninTest.signinvalidate(SigninTest.java:31)
+

@@ -1,0 +1,5 @@
+Pages\SigninPage.class
+WhataburgerSampleG\WhataburgerSampleA\BaseTest.class
+WhataburgerSampleG\WhataburgerSampleA\InvalidemailTest.class
+WhataburgerSampleG\WhataburgerSampleA\SigninTest.class
+WhataburgerSampleG\WhataburgerSampleA\ForgotpasswordErrormessageTest.class

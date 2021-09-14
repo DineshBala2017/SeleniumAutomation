@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="WhataburgerSampleG.WhataburgerSampleA.HomeMenuTest">
+        <methods>
+          <include name="hmsignin"/>
+        </methods>
+      </class> <!-- WhataburgerSampleG.WhataburgerSampleA.HomeMenuTest -->
+      <class name="WhataburgerSampleG.WhataburgerSampleA.SigninTest">
+        <methods>
+          <include name="setuptest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- WhataburgerSampleG.WhataburgerSampleA.SigninTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

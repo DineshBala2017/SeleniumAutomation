@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="WhataburgerSampleG.WhataburgerSampleA.InvalidemailTest">
+        <methods>
+          <include name="wrongemail"/>
+        </methods>
+      </class> <!-- WhataburgerSampleG.WhataburgerSampleA.InvalidemailTest -->
+      <class name="WhataburgerSampleG.WhataburgerSampleA.ForgotpasswordErrormessageTest">
+        <methods>
+          <include name="Forgotpasswordemail1"/>
+          <include name="Forgotpasswordemail"/>
+        </methods>
+      </class> <!-- WhataburgerSampleG.WhataburgerSampleA.ForgotpasswordErrormessageTest -->
+      <class name="WhataburgerSampleG.WhataburgerSampleA.BaseTest">
+        <methods>
+          <include name="setuptest"/>
+        </methods>
+      </class> <!-- WhataburgerSampleG.WhataburgerSampleA.BaseTest -->
+      <class name="WhataburgerSampleG.WhataburgerSampleA.SigninTest">
+        <methods>
+          <include name="signinvalidate"/>
+        </methods>
+      </class> <!-- WhataburgerSampleG.WhataburgerSampleA.SigninTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
