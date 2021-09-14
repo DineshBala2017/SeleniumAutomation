@@ -36,7 +36,7 @@ public void hmsignin() throws InterruptedException, IOException
 	Thread.sleep(5000);
 	mp.MenuBurgers(nutriinfo);
 	report.flush();
-	
+	System.out.println("Hello Github");
 	
 }
 	
